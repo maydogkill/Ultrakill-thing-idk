@@ -34,10 +34,11 @@ body, html {
 
 nav {
     background-color: black;
+    display: flex;
 }
 
 .text-nav{
-    color: aliceblue;
+    color: rgb(255, 187, 0);
     text-decoration: none;
     font-size: larger;
 }
@@ -47,11 +48,16 @@ nav {
     height: 35px;
     border-radius: 100%;
     border: 1px solid black;
+    
 }
 
 .nav-left {
     display: flex;
     align-items: center;
+}
+
+.nav-right {
+    margin-left: auto;
 }
 
 #Banner {
@@ -60,6 +66,10 @@ nav {
     padding: 50px;
     color: red;
     text-align: center;
+    font-size: x-large;
+    background-image: url(./fire.gif);
+    background-position: 69%;
+    background-size: cover;
     
 }
 
@@ -133,8 +143,20 @@ p {
     text-align: center;
     text-decoration: underline;
     color: crimson;
+    
 }
 
 .Minos {
     width: 150px;
+}
+
+.Decoration {
+    font-size: xx-large;
+    color: yellow;
+    
+}
+
+.Login {
+    float: right;
+    
 }
