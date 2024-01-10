@@ -11,7 +11,7 @@ body, html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: aqua;
+    background-color: rgb(255, 0, 0);
     border-radius: 20px;
 }
 
@@ -89,9 +89,9 @@ nav {
 .image {
     margin: auto;
     display: block;
-    width: 50%;
+    width: 10%;
     border-radius: 20px;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 0px black;
 }
 
 footer {
@@ -142,7 +142,7 @@ p {
 .Content {
     text-align: center;
     text-decoration: underline;
-    color: crimson;
+    color: red;
     
 }
 
@@ -153,10 +153,15 @@ p {
 .Decoration {
     font-size: xx-large;
     color: yellow;
-    
 }
 
 .Login {
     float: right;
     
 }
+
+.TextDec {
+    text-decoration: darkslateblue;
+    color: rgba(211, 44, 2, 0.712);
+}
+
